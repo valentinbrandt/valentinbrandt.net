@@ -1,0 +1,192 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+body{
+font-family: 'Open Sans', sans-serif;
+background-color: #fff;
+color:rgba(0,0,0,0.8);
+}
+
+h3.text-center{
+	padding: 50px 0px ;
+	font-style: italic;
+}
+
+a{
+	color: #49B3C0;
+
+}
+
+
+a:hover{
+	color: #49B3C0;
+	-webkit-transition:0.2s;
+	-moz-transition:0.2s;
+	transition: 0.2s;
+}
+
+
+
+.navbar{
+margin-bottom:0px;
+border-radius:0px;
+border: none;
+background-color: #4AB7C5;
+}
+
+a.navbar-brand{
+}
+.navbar-default .navbar-brand{
+
+	color: #fff;
+}
+.navbar-default .navbar-brand:hover{
+
+	color: #388690;
+}
+.thumbnail:hover{
+
+	opacity: 1;
+}
+
+
+.jumbotron {
+    padding: 30px 0 0 0;
+    margin-bottom: 0px;
+    color: #fff;
+    background-color: #49B3C0;
+    border-top: 1px solid #49B3C0;
+}
+
+
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #388690;
+
+
+
+}
+
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	color: #fff;
+	background-color:#388690;
+
+}
+
+
+
+.navbar-default .navbar-toggle{
+	border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+		background-color: #fff;
+
+}
+.navbar-toggle{
+	background-color: #49B3C0;
+}
+
+.navbar-toggle:hover{
+	background-color: #388690;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color: #49B3C0;
+
+}
+
+.thumbnail{
+border:none;
+}
+
+.btn-primary{
+color: #fff;
+background-color: #49B3C0;
+border-color: #49B3C0;	
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+color: #fff;
+background-color: #388690;
+border-color: #388690;	
+
+}
+
+
+footer p{
+	color: grey;
+	padding: 12px 0px 48px;
+	text-align: center;
+}
+
+footer p.copyright ,p.job{
+	font-size: 12px;
+}
+
+footer p.social {
+	margin: auto;
+	width: 122px;
+	left: 0;
+	right: 0;
+	font-size: 20px;
+	padding: 6px 0px 48px;
+
+}
+
+
+
+footer p a {
+	color: grey;
+}
+
+footer p a.dribble {
+	margin-right: 10px;
+}
+
+footer p a.twitter {
+	margin-right: 10px;
+}
+
+footer p a.linked-in {
+	margin-right: 10px;
+}
+
+.gallery p{
+
+	padding-top:10px;
+	opacity: 0.6;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+footer p.copyright {
+	text-align: left;
+}
+
+footer p.job {
+	text-align: right;
+}
+}
+
+.logo-portfolio path{
+	fill:grey;
+}
+
+.logo-portfolio {
+	border: 1px solid #F2F2F2;
+}
+
+
+
+
+
+.logo-bio path {
+    fill: grey;
+}​
+
